@@ -1,0 +1,30 @@
+# Virtual Environment & Dependencies
+.venv/
+env/
+venv/
+
+# Environment Variables & Secrets (CRITICAL: Never commit .env)
+.env
+.env.*
+!.env.example
+
+# Python Caches & Build Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & Temporary Files
+*.log
+scratch/
+.system_generated/
+
+# OS & Editor Files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
